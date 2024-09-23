@@ -1,0 +1,17 @@
+name: simple pipeline process
+on: push
+jobs:
+    job1:
+      runs-on: windows-latest
+      steps:
+      - uses: actions/checkout@v4
+        name: code checkout 
+      - run: ipconfig
+        name: ipconfigration
+  
+
+
+
+
+
+
